@@ -6,7 +6,7 @@ class NewVisitorTest(unittest.TestCase):
     
     def setUp(self):
         self.browser = webdriver.Firefox()
-        self.browser.implicity_wait(3)
+        self.browser.implicitly_wait(3)
 
     def tearDown(self):
         self.browser.quit()
@@ -16,4 +16,4 @@ class NewVisitorTest(unittest.TestCase):
         self.assertIn('Welcome to Django', self.browser.title)
 
 if __name__ == '__main__':
-    unittest.main(warnings='ignore')
+    unittest.main()
