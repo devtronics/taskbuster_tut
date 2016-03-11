@@ -1,3 +1,5 @@
-# taskbuster_tut
+# taskbuster_tut 
 
-further work developing my Django skills with a more ccomplex tutorial
+further work developing my Django skills with a more complex tutorial
+
+http://www.marinamele.com/
