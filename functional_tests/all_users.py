@@ -9,7 +9,7 @@ class NewVisitorTest(unittest.TestCase):
         self.browser.implicitly_wait(3)
 
     def tearDown(self):
-        self.browser.quit()
+        self.browserequit()
 
     def test_it_worked(self):
         self.browser.get('http://localhost:8000')
