@@ -2,12 +2,10 @@
 from selenium import webdriver
 from django.core.urlresolvers import reverse
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
-<<<<<<< HEAD
 from django.utils.translation import activate
-=======
 from datetime import date
 from django.utils import formats
->>>>>>> master
+
 
 class HomeNewVisitorTest(StaticLiveServerTestCase):
 
@@ -38,7 +36,7 @@ class HomeNewVisitorTest(StaticLiveServerTestCase):
     
     def test_localization(self):
         today = date.today()
-        for lang in ['en', 'es-mx']:
+        for lang in ['en', 'ca']:
             activate(lang)
             self.browser.get(self.get_full_url("home"))
             local_date = self.browser.find_element_by_id("local-date")
