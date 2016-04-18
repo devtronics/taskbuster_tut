@@ -1,6 +1,6 @@
 from django.conf.urls import include, url
 from django.contrib import admin
-from django.conf.urls.il18n import i18n_patterns
+from django.conf.urls.i18n import i18n_patterns
 from .views import home, home_files
 
 urlpatterns = [

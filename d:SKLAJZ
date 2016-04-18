@@ -1,0 +1,134 @@
+[33mcommit 1c5e26d8f38dbf5505700284f2ebff2078d62cdd[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Sun Apr 3 16:09:13 2016 -0700
+
+    added test...not quite passing tho
+
+[33mcommit 28f6a356884a7db86ba902d2a4223f3ba9132f72[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Sun Apr 3 15:00:07 2016 -0700
+
+    modified title
+
+[33mcommit 4b154565343faa617cec2812be82088794c524df[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Sun Apr 3 14:41:51 2016 -0700
+
+    modified test.py to account for active language
+
+[33mcommit d36651d6c4948398896282cbb2ec8c76c27ca7f9[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Sun Apr 3 14:20:12 2016 -0700
+
+    added the language translation patterns to required urls
+
+[33mcommit fb3c1b06b10c3a7ccd195428a2bf788d872e95a2[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Sun Apr 3 14:10:32 2016 -0700
+
+    created translation settings in base.py
+
+[33mcommit d4516106664a06e0536fd20ab346d0a19cd72011[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Thu Mar 31 21:17:38 2016 -0700
+
+    new tests for robots.txt & humans.txt
+
+[33mcommit f04bbfcc7f628fe67c2ede50c2909ae96b467218[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Sun Mar 20 01:23:38 2016 -0700
+
+    added new test, modified urls.py, modified views.py
+
+[33mcommit 8b520b0c41b1c5933244fd732359fba48a6606fa[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Sun Mar 20 01:06:52 2016 -0700
+
+    base.html modified, index.html modified, tests pass
+
+[33mcommit b9f697ef75baf8a91e5c987c7cf35e2a6988da31[m
+Merge: 14c7e47 761f637
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Wed Mar 16 18:13:15 2016 -0700
+
+    Merge branch 'master' of github.com:devtronics/taskbuster_tut
+    
+    added to .gitignore from github site
+
+[33mcommit 14c7e473a49afadb5a1d7dfa37d30b2ce4b9eb5c[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Wed Mar 16 18:12:36 2016 -0700
+
+    adjusted main.css, base.html & tests pass
+
+[33mcommit 761f6379a7f0fc3de2efa94847127b21f665af61[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Wed Mar 16 18:11:41 2016 -0700
+
+    Update .gitignore
+
+[33mcommit d00ddee8948c3c5313c1ca1933b14beab91c0d0a[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Fri Mar 11 04:41:50 2016 -0800
+
+    moved files around, test.py succeeds
+
+[33mcommit 5e84c1fefea237db337f7a0adc18ee3204b2b112[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Fri Mar 11 03:45:57 2016 -0800
+
+    created index.html
+
+[33mcommit 0a371e793a5d422c449424d007cbd12eaee18b21[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Fri Mar 11 03:37:24 2016 -0800
+
+    modified functional_tests, created views, added url
+
+[33mcommit 33a692341bb347654114c1af1e73d2872366d493[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Fri Mar 11 02:51:08 2016 -0800
+
+    mkdir static & templates, bootstrap & css files included
+
+[33mcommit 586d309f1e4551a7929f2dc708ec90adbb69245b[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Fri Mar 11 01:51:33 2016 -0800
+
+    website of tutorial added to README
+
+[33mcommit cbc45850bbe68d26cc69e0d80b5db52e4f23dd2d[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Tue Mar 8 21:33:41 2016 -0800
+
+    modified how secret key in base.py is managed
+
+[33mcommit 96919ec20d724c0b0fdf8c553bc0bd9d3652743a[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Tue Mar 8 21:07:30 2016 -0800
+
+    settings.py changed to base.py and further settings.py created for development, production, staging and testing
+
+[33mcommit cfac7e5986b9a2db38e9ef1ea59f56af5af14ab1[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Tue Mar 8 20:04:26 2016 -0800
+
+    added requirements.txt for each virtual env
+
+[33mcommit d7a2618d371c0d9e10ec6b61ea47f05f7a1dd508[m
+Author: christopher heckler <heckles@heck.top>
+Date:   Tue Mar 8 18:56:56 2016 -0800
+
+    first initial test
+
+[33mcommit 171db73a1f9b31953086a0f4bb7e23cb434ffd1f[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Tue Mar 8 17:35:52 2016 -0800
+
+    Create README.md
+
+[33mcommit 9052f00fd0e7f106fb8f372d76a8bfa19721254e[m
+Author: chrisheckler <hecklerchris@hotmail.com>
+Date:   Tue Mar 8 17:34:47 2016 -0800
+
+    Update .gitignore
