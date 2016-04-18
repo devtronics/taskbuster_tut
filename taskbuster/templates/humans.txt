@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Chris Heckler -- Developer 
 
 # THANKS
-
+    Thanks to the blogmaker, Beedy and the whole Community
     <name>
 
 # TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    jQuery, Modernizr
+    Django
+    HTML5, Boilerplate
+    Twitter Bootstrap

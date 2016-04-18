@@ -53,7 +53,10 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware',
+<<<<<<< HEAD
     'django.middleware.common.CommonMiddleware',
+=======
+>>>>>>> master
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -120,7 +123,15 @@ AUTH_PASSWORD_VALIDATORS = [
 from django.utils.translation import ugettext_lazy as _
 LANGUAGES = (
     ('en', _('English')),
+<<<<<<< HEAD
     ('ca', _('Catalan')),
+=======
+    ('es-mx',_('Spanish')),
+)
+
+LOCALE_PATHS = (
+        os.path.join(BASE_DIR, 'locale'),
+>>>>>>> master
 )
 
 LANGUAGE_CODE = 'en-us'
