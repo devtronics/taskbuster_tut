@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from selenium import webdriver
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 from django.core.urlresolvers import reverse
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from django.utils.translation import activate
@@ -8,7 +9,7 @@ from django.utils import formats
 
 
 class HomeNewVisitorTest(StaticLiveServerTestCase):
-
+  
     def setUp(self):
         self.browser = webdriver.Firefox()
         self.browser.implicitly_wait(3)
@@ -52,3 +53,5 @@ class HomeNewVisitorTest(StaticLiveServerTestCase):
         ny = self.browser.find_element_by_id("time-ny").text
         self.assertNotEqual(tz, utc)
         self.assertNotIn(ny, [tz, utc])
+
+    
